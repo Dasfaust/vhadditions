@@ -1,0 +1,29 @@
+modLoader="javafml"
+loaderVersion="[40,)"
+license="MIT"
+
+[[mods]]
+modId="vhadditions"
+version="${file.jarVersion}"
+displayName="Vault Hunter Additions"
+logoFile="vhadditions.png"
+credits="Vault Hunter team, Dasfaust"
+authors="Dasfaust"
+description='''
+Adds configurable actions upon Vault Hunter events.
+'''
+displayTest="IGNORE_ALL_VERSION"
+
+[[dependencies.vhadditions]]
+    modId="forge"
+    mandatory=true
+    versionRange="[40,)"
+    ordering="NONE"
+    side="SERVER"
+
+[[dependencies.vhadditions]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.18.2,1.19)"
+    ordering="NONE"
+    side="SERVER"
